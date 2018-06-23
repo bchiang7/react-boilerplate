@@ -1,4 +1,5 @@
 import { injectGlobal } from 'styled-components';
+import theme from './theme';
 
 const base = injectGlobal`
   html {
@@ -22,10 +23,9 @@ const base = injectGlobal`
     overflow-x: hidden;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    font-family: ${theme.fonts.sans};
-    font-size: ${theme.fontSizes.base};
-    color: ${theme.colors.green};
     background-color: ${theme.colors.white};
+    font-family: ${theme.fonts.primary};
+    font-size: ${theme.fontSizes.base};
   }
 `;
 

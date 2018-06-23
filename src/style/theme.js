@@ -1,22 +1,5 @@
-const chrome000 = '#FFFFFF';
-const chrome600 = '#757575';
-const chrome800 = '#424242';
-const chrome900 = '#212121';
-const blue = '#2196F3';
-const deepPurple = '#673AB7';
-
 const theme = {
   colors: {
-    // ui colors
-    background: chrome000,
-    link: blue,
-    linkHover: darken(0.2, blue),
-    linkVisited: darken(0.2, deepPurple),
-    text: chrome800,
-    overlay: rgba(chrome900, 0.85),
-    shadow: rgba(chrome600, 0.4),
-    shadowLight: rgba(chrome600, 0.2),
-
     // material ui color palette
     red: '#F44336',
     pink: '#E91E63',
@@ -38,21 +21,20 @@ const theme = {
     blueGrey: '#607D8B',
 
     // material ui grayscale
-    chrome000,
+    chrome000: '#FFFFFF',
     chrome100: '#F5F5F5',
     chrome200: '#EEEEEE',
     chrome300: '#E0E0E0',
     chrome400: '#BDBDBD',
     chrome500: '#9E9E9E',
-    chrome600,
+    chrome600: '#757575',
     chrome700: '#616161',
-    chrome800,
-    chrome900,
+    chrome800: '#424242',
+    chrome900: '#212121',
   },
 
   fonts: {
-    primary: 'Open Sans',
-    primaryFallback: 'Helvetica, Arial, sans-serif',
+    primary: 'system, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Arial, sans-serif',
   },
 
   fontSizes: {
@@ -60,6 +42,15 @@ const theme = {
     xs: `0.7rem`,
     sm: `0.9rem`,
     md: `1.25rem`,
+    lg: `2rem`,
+    xl: `3rem`,
+  },
+
+  spacing: {
+    base: `1rem`,
+    xs: `0.5rem`,
+    sm: `0.75rem`,
+    md: `1.5rem`,
     lg: `2rem`,
     xl: `3rem`,
   },
@@ -77,15 +68,6 @@ const theme = {
   },
 
   transition: `all 0.25s ease`,
-
-  spacing: {
-    base: `1rem`,
-    xs: `0.5rem`,
-    sm: `0.75rem`,
-    md: `1.5rem`,
-    lg: `2rem`,
-    xl: `3rem`,
-  },
 };
 
 export default theme;

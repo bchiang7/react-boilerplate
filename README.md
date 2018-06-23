@@ -3,7 +3,9 @@
 ## Setup
 
 1.  `yarn`
-1.  `npm start`
+2.  `npm start`
+
+---
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
