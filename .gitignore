@@ -23,3 +23,5 @@ yarn-error.log*
 src/**/*.css
 
 package-lock.json
+
+/vs_code
