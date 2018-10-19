@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import styled, { keyframes } from 'styled-components';
+import { GlobalStyle } from './styles';
 
 const spin = keyframes`
   from {
@@ -35,6 +36,7 @@ class App extends Component {
   render() {
     return (
       <AppContainer>
+        <GlobalStyle />
         <AppHeader>
           <AppLogo src={logo} alt="logo" />
           <p>

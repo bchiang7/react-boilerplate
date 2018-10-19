@@ -1,7 +1,7 @@
-import { injectGlobal } from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
 import theme from './theme';
 
-const base = injectGlobal`
+const GlobalStyle = createGlobalStyle`
   html {
     box-sizing: border-box;
     font-size: 10px;
@@ -78,4 +78,4 @@ const base = injectGlobal`
 
 `;
 
-export default base;
+export default GlobalStyle;
