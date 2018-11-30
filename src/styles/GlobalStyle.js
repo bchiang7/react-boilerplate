@@ -1,5 +1,6 @@
 import { createGlobalStyle } from 'styled-components/macro';
 import theme from './theme';
+const { colors } = theme;
 
 const GlobalStyle = createGlobalStyle`
   html {
@@ -21,6 +22,7 @@ const GlobalStyle = createGlobalStyle`
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    color: ${colors.black};
   }
 
   code {

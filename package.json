@@ -23,43 +23,28 @@
       "git add"
     ]
   },
-  "commitlint": {
-    "rules": {
-      "header-max-length": [
-        2,
-        "always",
-        72
-      ],
-      "subject-case": [
-        2,
-        "always",
-        "sentence-case"
-      ]
-    }
-  },
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged && lint-staged",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      "pre-commit": "pretty-quick --staged && lint-staged"
     }
   },
   "dependencies": {
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
-    "react-scripts": "2.0.5",
-    "styled-components": "^4.0.2"
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-scripts": "2.1.1",
+    "styled-components": "^4.1.2"
   },
   "devDependencies": {
-    "@commitlint/cli": "^7.2.1",
-    "@upstatement/eslint-config": "0.2.2",
-    "@upstatement/prettier-config": "^0.2.2",
-    "babel-plugin-styled-components": "^1.8.0",
-    "eslint-config-prettier": "^3.1.0",
+    "@upstatement/eslint-config": "0.3.0",
+    "@upstatement/prettier-config": "^0.3.0",
+    "babel-plugin-styled-components": "^1.9.2",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-react": "^7.11.1",
-    "husky": "^1.1.2",
-    "lint-staged": "^7.3.0",
-    "prettier": "^1.14.3",
+    "husky": "^1.2.0",
+    "lint-staged": "^8.1.0",
+    "prettier": "^1.15.3",
     "pretty-quick": "^1.8.0"
   }
 }

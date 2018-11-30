@@ -19,6 +19,8 @@ const theme = {
     deepOrange: '#FF5722',
     brown: '#795548',
     blueGrey: '#607D8B',
+    white: '#FFFFFF',
+    black: '#000000',
 
     // material ui grayscale
     chrome000: '#FFFFFF',
